@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Boost – Assistant IA</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #0a0f1a;
+  color: #e2e8f0;
+}
+* { box-sizing: border-box; }
+a { color: inherit; text-decoration: none; }
+
+/* NAV */
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: 700;
+  font-size: 1.4rem;
+  background: linear-gradient(90deg, #38bdf8, #a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+nav a {
+  margin-left: 20px;
+  opacity: 0.7;
+}
+nav a:hover { opacity: 1; }
+
+/* HERO */
+.hero {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+}
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+.btn {
+  padding: 12px 28px;
+  border-radius: 40px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #38bdf8, #a855f7);
+  color: #0a0f1a;
+  font-weight: 600;
+}
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #475569;
+  color: #e2e8f0;
+  margin-left: 10px;
+}
+
+/* FEATURES */
+.section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.card {
+  background: #111827;
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid #1e293b;
+}
+.card p { opacity: .8; }
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+  background: #111827;
+}
+.cta h2 { font-size: 2.2rem; margin-bottom: 10px; }
+.cta p { opacity: .8; margin-bottom: 20px; }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: .6;
+}
+
+/* RESPONSIVE */
+@media(max-width:800px){
+  .grid-3 { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">AI Boost</div>
+  <div>
+    <a href="#features">Fonctionnalités</a>
+    <a href="#pricing">Tarifs</a>
+    <a href="#cta">Essai gratuit</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Boostez votre productivité avec l’IA.</h1>
+  <p>Un assistant intelligent capable de rédiger, analyser, organiser et automatiser vos tâches.</p>
+  <button class="btn btn-primary">Essai gratuit</button>
+  <button class="btn btn-secondary">Voir la démo</button>
+</div>
+
+<section class="section" id="features">
+  <h2>Fonctionnalités IA</h2>
+  <div class="grid-3">
+    <div class="card">
+      <h3>Rédaction intelligente</h3>
+      <p>Générez des textes, emails, scripts, descriptions produits...</p>
+    </div>
+    <div class="card">
+      <h3>Analyse avancée</h3>
+      <p>Analyse sentiment, résumé automatique, extraction d’idées clés.</p>
+    </div>
+    <div class="card">
+      <h3>Automatisation</h3>
+      <p>Créez des workflows IA personnalisés qui vous font gagner du temps.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cta" id="cta">
+  <h2>Commencez gratuitement</h2>
+  <p>Aucune carte bancaire requise.</p>
+  <button class="btn btn-primary">Essayer maintenant</button>
+</div>
+
+<footer>© 2025 AI Boost</footer>
+
+</body>
+</html>
